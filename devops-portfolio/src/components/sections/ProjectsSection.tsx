@@ -185,7 +185,7 @@ export function ProjectsSection() {
           transition={{ delay: 0.8 }}
         >
           <a
-            href="https://github.com/alexchen-dev"
+            href="https://github.com/coding-chandan"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl glass border border-white/10 text-white/60 font-mono text-sm hover:text-white hover:border-white/30 transition-all duration-300 group"
