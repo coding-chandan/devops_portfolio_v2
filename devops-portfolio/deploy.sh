@@ -15,7 +15,8 @@
 set -e  # koi bhi error aaye to script ruk jaye
 
 # ── CONFIG — SIRF YEH BADLO ────────────────────────────────────
-GITHUB_REPO="https://github.com/coding-chandan/devops-portfolio.git"
+#GITHUB_REPO="https://github.com/coding-chandan/devops-portfolio.git"
+GITHUB_REPO="https://github.com/coding-chandan/devops_portfolio_v2.git"
 BRANCH="main"
 APP_DIR="/var/www/portfolio"
 APP_NAME="devops-portfolio"
