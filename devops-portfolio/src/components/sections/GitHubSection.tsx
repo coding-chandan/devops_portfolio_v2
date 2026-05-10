@@ -89,7 +89,7 @@ export function GitHubSection() {
             </motion.div>
           ))}
           <a
-            href="https://github.com/alexchen-dev"
+            href="https://github.com/coding-chandan"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-auto flex items-center gap-2 px-4 py-2 rounded-xl glass-blue border border-[#00d4ff]/20 text-[#00d4ff] font-mono text-xs hover:border-[#00d4ff]/50 transition-all self-center"
@@ -156,7 +156,7 @@ export function GitHubSection() {
           {repos.map((repo, i) => (
             <motion.a
               key={repo.name}
-              href={`https://github.com/alexchen-dev/${repo.name}`}
+              href={`https://github.com/coding-chandan${repo.name}`}
               target="_blank"
               rel="noopener noreferrer"
               className="glass rounded-xl p-5 border border-white/5 card-hover block"
