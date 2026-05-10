@@ -7,9 +7,9 @@ import { Footer } from "@/components/sections/Footer";
 import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
-  title: "Alex Chen — Cloud & DevOps Engineer",
+  title: "Chandan Maheshwari — Cloud & DevOps Engineer",
   description:
-    "Senior Cloud & DevOps Engineer specializing in AWS, Kubernetes, Terraform, and CI/CD automation. Building scalable infrastructure for the future.",
+    "Cloud & DevOps Engineer specializing in AWS, Kubernetes, Terraform, and CI/CD automation. Building scalable infrastructure for the future.",
   keywords: [
     "DevOps Engineer",
     "Cloud Engineer",
@@ -23,30 +23,30 @@ export const metadata: Metadata = {
     "Docker",
     "GitHub Actions",
   ],
-  authors: [{ name: "Alex Chen" }],
-  creator: "Alex Chen",
+  authors: [{ name: "Chandan Maheshwari" }],
+  creator: "Chandan Maheshwari",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://alexchen.dev",
-    title: "Alex Chen — Cloud & DevOps Engineer",
+    url: "https://chandanmaheshwari.dev",
+    title: "Chandan Maheshwari — Cloud & DevOps Engineer",
     description:
-      "Senior Cloud & DevOps Engineer specializing in AWS, Kubernetes, Terraform, and CI/CD automation.",
-    siteName: "Alex Chen Portfolio",
+      "Cloud & DevOps Engineer specializing in AWS, Kubernetes, Terraform, and CI/CD automation.",
+    siteName: "Chandan Maheshwari Portfolio",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Alex Chen — Cloud & DevOps Engineer",
+        alt: "Chandan Maheshwari — Cloud & DevOps Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Chen — Cloud & DevOps Engineer",
+    title: "Chandan Maheshwari — Cloud & DevOps Engineer",
     description: "Building scalable infrastructure for the future.",
-    creator: "@alexchen_dev",
+    creator: "@chandan_dev",
     images: ["/og-image.png"],
   },
   robots: {
