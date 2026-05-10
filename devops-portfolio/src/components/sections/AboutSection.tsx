@@ -6,7 +6,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Terminal, MapPin, Mail, Coffee, Cpu, Globe } from "lucide-react";
 
 const terminalLines = [
-  { prompt: "whoami", output: "alex-chen" },
+  { prompt: "whoami", output: "Chandan Maheshwari },
   { prompt: "cat role.txt", output: "Senior Cloud & DevOps Engineer" },
   { prompt: "echo $LOCATION", output: "San Francisco, CA" },
   { prompt: "ls certifications/", output: "aws/ cka/ ckad/ terraform/ gcp/ ..." },
@@ -40,7 +40,7 @@ export function AboutSection() {
                 <div className="w-3 h-3 rounded-full bg-green-500/70" />
               </div>
               <span className="font-mono text-xs text-white/30">
-                alex@devops:~
+                Chandan@devops:~
               </span>
               <div className="w-16" />
             </div>
@@ -152,7 +152,7 @@ export function AboutSection() {
               },
               {
                 icon: Mail,
-                text: "alex@alexchen.dev",
+                text: "chandan@cloud.dev",
                 color: "#10b981",
               },
             ].map(({ icon: Icon, text, color }, i) => (
