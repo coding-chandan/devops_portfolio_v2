@@ -16,7 +16,6 @@ const navLinks = [
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,10 +60,7 @@ export function Navigation() {
                 className="font-display font-bold text-white tracking-wide"
                 style={{ fontFamily: "Syne, sans-serif" }}
               >
-                ALEX<span className="text-[#00d4ff]">.</span>CHEN
-              </span>
-              <span className="hidden sm:block font-mono text-[10px] text-white/30 tracking-widest">
-                DEVOPS
+                CHANDAN<span className="text-[#00d4ff]">.</span>DEV
               </span>
             </motion.div>
 
