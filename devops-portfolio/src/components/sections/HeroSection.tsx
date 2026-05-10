@@ -169,9 +169,9 @@ export function HeroSection() {
             className="font-display text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight mb-4 leading-none"
             style={{ fontFamily: "Syne, sans-serif" }}
           >
-            <span className="text-white">Alex</span>
+            <span className="text-white">Chandan</span>
             <br />
-            <span className="aurora-text">Chen.</span>
+            <span className="aurora-text">Maheshwari.</span>
           </h1>
         </motion.div>
 
@@ -230,7 +230,7 @@ export function HeroSection() {
             Get In Touch
           </button>
           <a
-            href="https://github.com/alexchen-dev"
+            href="https://github.com/coding-chandan"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3.5 rounded-xl glass border border-white/10 text-white/70 font-medium text-sm hover:text-white hover:border-white/30 transition-all duration-300 hover:scale-105"
@@ -239,7 +239,7 @@ export function HeroSection() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/alexchen-devops"
+            href="www.linkedin.com/in/chandan-maheshwari-8103472a4"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3.5 rounded-xl glass border border-white/10 text-white/70 font-medium text-sm hover:text-white hover:border-white/30 transition-all duration-300 hover:scale-105"
@@ -293,8 +293,8 @@ export function HeroSection() {
         <div className="w-px h-24 bg-gradient-to-b from-transparent via-[#00d4ff]/30 to-transparent" />
         <div className="flex flex-col gap-3">
           {[
-            { icon: Github, href: "https://github.com/alexchen-dev" },
-            { icon: Linkedin, href: "https://linkedin.com/in/alexchen-devops" },
+            { icon: Github, href: "https://github.com/coding-chandan" },
+            { icon: Linkedin, href: "www.linkedin.com/in/chandan-maheshwari-8103472a4" },
             { icon: Mail, href: "#contact" },
           ].map(({ icon: Icon, href }) => (
             <a
@@ -315,7 +315,7 @@ export function HeroSection() {
           className="font-mono text-[10px] text-white/20 tracking-widest"
           style={{ writingMode: "vertical-rl" }}
         >
-          alexchen.dev
+          Chandan.Dev
         </span>
         <div className="w-px h-24 bg-gradient-to-b from-transparent via-[#b347ff]/30 to-transparent" />
       </div>
