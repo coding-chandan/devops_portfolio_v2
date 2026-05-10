@@ -12,10 +12,10 @@ const footerLinks = [
 ];
 
 const socials = [
-  { icon: Github, href: "https://github.com/alexchen-dev" },
-  { icon: Linkedin, href: "https://linkedin.com/in/alexchen-devops" },
-  { icon: Twitter, href: "https://twitter.com/alexchen_dev" },
-  { icon: Mail, href: "mailto:alex@alexchen.dev" },
+  { icon: Github, href: "https://github.com/coding-chandan" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/chandan-maheshwari-8103472a4" },
+  { icon: Twitter, href: "https://twitter.com/" },
+  { icon: Mail, href: "mailto:chandan@cloud.dev" },
 ];
 
 export function Footer() {
@@ -34,7 +34,7 @@ export function Footer() {
               className="font-display font-bold text-white tracking-wide"
               style={{ fontFamily: "Syne, sans-serif" }}
             >
-              ALEX<span className="text-[#00d4ff]">.</span>CHEN
+              CHANDAN<span className="text-[#00d4ff]">.</span>DEV
             </span>
           </div>
 
@@ -79,7 +79,7 @@ export function Footer() {
             using Next.js 15, Three.js & Framer Motion
           </p>
           <p className="font-mono text-[11px] text-white/25">
-            © 2026 Alex Chen. All rights reserved.
+            © 2026 Chandan Maheshwari. All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
@@ -89,10 +89,9 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Terminal signature */}
         <div className="mt-6 text-center">
           <span className="font-mono text-[10px] text-white/15">
-            $ echo "Thanks for visiting — let&apos;s build something great together" | cowsay
+            $ echo &quot;Thanks for visiting — let&apos;s build something great together&quot;
           </span>
         </div>
       </div>
